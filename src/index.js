@@ -28,7 +28,7 @@ if (minutes < 10) {
 }
 
 let currentDay = document.querySelector("#current-day");
-currentDay.innerHTML = `${today} ${hours}: ${minutes}`;
+currentDay.innerHTML = `${today} ${hours}:${minutes}`;
 
 //Challenge 2
 
